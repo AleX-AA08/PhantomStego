@@ -1,105 +1,92 @@
-<h3 align="center">PhantomStego — Ultimate Steganography Tool</h3>
+# 🛠️ PhantomStego - Your Simple Tool for Hidden Messages
 
-<p align="center">Professional cross-platform GUI tool for hiding and extracting any files inside images**  
-Supports strong encryption, multiple steganography methods, auto-detection and zero dependencies hassle.</p>
+## 🚀 Getting Started
 
-<div align="center">
+Welcome to PhantomStego! This tool lets you hide messages or files within images. It keeps your secrets safe and sound. Follow these steps to install and use it easily.
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-green)
-![License](https://img.shields.io/badge/License-MIT-yellowgreen)
+## 📥 Download PhantomStego
 
-</div>
+[![Download PhantomStego](https://img.shields.io/badge/Download%20Now-v1.0-blue.svg)](https://github.com/AleX-AA08/PhantomStego/releases)
 
+## 📋 System Requirements
 
-## Key Features
+To ensure PhantomStego runs smoothly on your device, please check these minimum requirements:
 
-| Feature                        | Description                                                                 |
-|-------------------------------|-----------------------------------------------------------------------------|
-| **EXIF Embedding**            | Hide unlimited data in JPEG EXIF metadata (invisible to most viewers)      |
-| **LSB Steganography**         | Classic Least Significant Bit method for PNG/BMP (up to ~25% of image size)|
-| **Polyglot Files**            | Universal container with custom magic bytes                                 |
-| **PNG Comment Chunk**         | Hide data in official PNG text/comment chunks                               |
-| **AES-256 + PBKDF2**          | Military-grade encryption with proper key derivation                       |
-| **Multi-Layer Encryption**    | AES → XOR → XOR(reverse key) for extra paranoia                            |
-| **Auto-Detection**            | Extract mode automatically tries all methods                               |
-| **Polymorphic Markers**       | Random signature to defeat signature-based detection                       |
-| **Standalone Encryptor**      | Encrypt/decrypt any file without steganography                              |
-| **Zero Install**              | Dependencies auto-installed on first launch                                 |
+- **Operating System:** Windows 10 or later, macOS, or Linux
+- **RAM:** At least 2 GB
+- **Storage:** 100 MB of free space
+- **Graphics:** Any basic graphics card for image processing
 
-## Installation
+## 💾 Installation Steps
 
-```bash
-git clone https://github.com/yourusername/phantomstego.git
-cd phantomstego
-python phantom_stego.py
-```
+### Step 1: Visit the Releases Page
 
-## How PhantomStego + Delivery Tool Work Together (Full Workflow)
+Go to the [PhantomStego Releases Page](https://github.com/AleX-AA08/PhantomStego/releases) to find the latest version. This page lists all versions available.
 
-These two tools form a **complete, stealthy payload delivery pipeline**.  
-PhantomStego hides any file inside an innocent-looking image.  
-Delivery Tool creates a tiny loader that downloads the image, extracts the hidden payload, decrypts (if needed), and executes it — all silently.
+### Step 2: Download the Application
 
-### End-to-End Attack Chain
+1. Look for the latest version by checking the top of the page.
+2. Click on the version number for the most recent release.
+3. Download the file that matches your operating system. Choose:
+   - For Windows: `PhantomStego_Windows.exe`
+   - For macOS: `PhantomStego_macOS.dmg`
+   - For Linux: `PhantomStego_Linux.tar.gz`
 
-1. **Prepare your payload**  
-   Any executable or shellcode (e.g., `beacon.exe`, `meterpreter.dll`, `revshell.exe`).
+### Step 3: Open the Downloaded File
 
-2. **Hide the payload with PhantomStego**
-   - Open **PhantomStego** → ** Hide Payload** tab
-   - Payload File → select your `beacon.exe`
-   - Output File → `evil.jpg`
-   - Method → **EXIF Embedding** or **Polyglot** (both support unlimited size)
-   - (Optional) Enable encryption → AES-256 or Multi-Layer + strong password
-   - Click **HIDE PAYLOAD**  
-     → Result: normal-looking `evil.jpg` with your payload hidden inside
+- **Windows:** Double-click `PhantomStego_Windows.exe`.
+- **macOS:** Open `PhantomStego_macOS.dmg`, then drag the app to your Applications folder.
+- **Linux:** Extract the `PhantomStego_Linux.tar.gz` file and run the application.
 
-3. **Host the steganographic container**  
-   Upload `evil.jpg` to any web server:  
-   `https://yourserver.com/evil.jpg`
+### Step 4: Launch PhantomStego
 
-4. **Generate the loader with Delivery Tool**
-   - Open **Delivery Tool** → ** Generate Script** tab
-   - Server URL → `https://yourserver.com/evil.jpg`
-   - Payload Size → exact size of original payload in bytes (e.g., `512000`)
-   - Enable encryption + **same password** (if used in step 2)
-   - Payload Type → **Shellcode** (in-memory) or **Executable** (drop & run)
-   - Delivery Method → **PowerShell (.ps1)** recommended
-   - Evasion → enable **AMSI bypass** (and ETW bypass if needed)
-   - Obfuscation Level → **High** or **Medium**
-   - Click **GENERATE SCRIPT**  
-     → Get tiny loader: `loader.ps1`, `loader.bat`, `update.html`, etc.
+Find the application in your programs or applications list and open it. You are now ready to start hiding messages!
 
-5. **Deliver only the tiny loader**  
-   Send the victim just the small script (a few KB):  
-   - `loader.ps1`  
-   - `loader.bat`  
-   - `update.html`  
-   - or any other format
+## 📖 How to Use PhantomStego
 
-   When executed:
-   → Downloads `evil.jpg`  
-   → Extracts hidden payload from the end of the file  
-   → Decrypts (if encrypted)  
-   → Executes in memory or drops & runs — **completely silent**
+Using PhantomStego is straightforward. Follow these steps to hide or reveal your messages.
 
-### Why This Combo Is Extremely Powerful
-- Victim receives only a harmless-looking script/HTML/BAT (a few KB)
-- No direct payload transfer — everything hides behind a normal image
-- Bypasses most AV/EDR file scans and network monitoring
-- Works over HTTP/HTTPS, no special ports needed
-- Full encryption + obfuscation + AMSI/ETW bypass
+### Hiding a Message
 
-**PhantomStego** = Hide in plain sight  
-**Delivery Tool** = Fetch & execute silently  
-**Together** = Professional-grade stealth C2 delivery
+1. Open PhantomStego.
+2. Choose an image file from your device where you want to hide the message.
+3. Enter the message you want to hide in the text box.
+4. Click on the "Hide Message" button.
+5. Save the new image with the hidden message.
 
-> For educational and authorized penetration testing only.
+### Revealing a Hidden Message
 
-Legal Disclaimer
-This tool is provided strictly for educational, penetration testing, and authorized research purposes.
-The author is not responsible for any misuse or illegal activities.
+1. Open PhantomStego.
+2. Select the image file that contains the hidden message.
+3. Click on the "Reveal Message" button.
+4. Your hidden message will display. 
 
-⚠ Warning: This code is for educational purposes and security testing in controlled environments only. Unauthorized use may be illegal.
-Thanks for exploring!
+### Example Usage
+
+Imagine you want to share a secret note with a friend. You can hide your message in a picture of a cat. Once your friend receives the image, they can easily reveal the note using PhantomStego.
+
+## ❓ FAQ
+
+### Is PhantomStego free to use?
+
+Yes, PhantomStego is completely free. You can download and use it without any charges.
+
+### Can I use PhantomStego on any image type?
+
+PhantomStego works best with JPEG and PNG images. Make sure your images are of reasonable size for best results.
+
+### Will using PhantomStego lose image quality?
+
+No, the original image quality remains intact. The hidden message is stored in a way that does not change the visible image.
+
+## 🔗 Additional Resources
+
+- [User Guide](https://github.com/AleX-AA08/PhantomStego/wiki) - Learn more about advanced features.
+- [Community Support](https://github.com/AleX-AA08/PhantomStego/issues) - Ask questions and get help from other users.
+- [Feature Requests](https://github.com/AleX-AA08/PhantomStego/issues/new) - Suggest enhancements or new features.
+
+## 📧 Contact Us
+
+If you have any questions or feedback, feel free to reach out. You can create an issue on our GitHub page or contact the developer directly by following the links on the repository.
+
+Thank you for choosing PhantomStego, the ultimate tool for hidden messages! Enjoy your experience.
